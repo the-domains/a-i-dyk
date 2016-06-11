@@ -1,8 +1,17 @@
-layout_spectrum: 0.7861162
-typography_spectrum: 0.3964906
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 color:
   saturation: 0.2388847
-  lightness: 0.5134439
   brandStrength: 0.003253334
   rhythmicContrast: 0.9529268
   brandColors:
@@ -11,4 +20,7 @@ color:
     - '#9DB4C0'
     - '#5C6B73'
     - '#253237'
+  lightness: 0.5134439
+typography_spectrum: 0.7007169
+layout_spectrum: 0.7670251
 name: A.I Dyk
